@@ -1,6 +1,6 @@
 # API Baldas Blog
 
-Starter project FastAPI dengan Poetry dan siap deploy ke Render.
+Starter project FastAPI dengan Poetry, siap deploy ke Render dan Koyeb.
 
 ## Menjalankan di lokal
 
@@ -32,3 +32,22 @@ Project ini sudah menyertakan `render.yaml`.
 
 Build command: `pip install poetry && poetry install --no-root`
 Start command: `poetry run uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-10000}`
+
+## Deploy ke Koyeb
+
+### Opsi 1 (direkomendasikan): Dockerfile deployment
+
+Project ini sudah punya `Dockerfile` dan `.dockerignore`.
+
+1. Push repository ini ke GitHub.
+2. Di Koyeb, pilih **Create App** -> **GitHub**.
+3. Pilih repository ini, lalu pilih metode deploy **Dockerfile**.
+4. Deploy langsung (Koyeb akan membaca `Dockerfile`).
+
+### Opsi 2: Buildpack deployment
+
+Project ini juga menyertakan `Procfile`:
+
+`web: uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-8000}`
+
+Jika memakai buildpack Python Koyeb, `Procfile` ini dipakai untuk run command.
