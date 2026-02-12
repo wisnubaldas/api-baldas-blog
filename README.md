@@ -140,3 +140,6 @@ Project ini menyertakan `Procfile`:
 Jika deploy dari root monorepo (bukan langsung folder `api-baldas-blog`), gunakan start command:
 
 `sh start.sh`
+
+Backend URL
+`https://violent-allix-wisnubaldas-141a8ea3.koyeb.app/`

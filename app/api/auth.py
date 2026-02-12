@@ -6,7 +6,13 @@ from sqlalchemy.orm import Session, selectinload
 
 from app.core.database import get_db
 from app.models import Role, User
-from app.schemas.auth import LoginRequest, MeResponse, RefreshResponse, RegisterRequest, TokenResponse
+from app.schemas.auth import (
+    LoginRequest,
+    MeResponse,
+    RefreshResponse,
+    RegisterRequest,
+    TokenResponse,
+)
 
 router = APIRouter(prefix="/auth", tags=["Auth"])
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
@@ -23,7 +29,9 @@ def _serialize_access_profile(user: User) -> tuple[list[str], list[str]]:
 def _build_token_response(Authorize: AuthJWT, user: User) -> TokenResponse:
     roles, permissions = _serialize_access_profile(user)
     claims = {"roles": roles, "permissions": permissions}
-    access_token = Authorize.create_access_token(subject=str(user.id), user_claims=claims)
+    access_token = Authorize.create_access_token(
+        subject=str(user.id), user_claims=claims
+    )
     refresh_token = Authorize.create_refresh_token(subject=str(user.id))
     return TokenResponse(access_token=access_token, refresh_token=refresh_token)
 
@@ -48,7 +56,9 @@ def register(payload: RegisterRequest, db: Session = Depends(get_db)) -> dict[st
 
 
 @router.post("/login", response_model=TokenResponse)
-def login(payload: LoginRequest, Authorize: AuthJWT = Depends(), db: Session = Depends(get_db)) -> TokenResponse:
+def login(
+    payload: LoginRequest, Authorize: AuthJWT = Depends(), db: Session = Depends(get_db)
+) -> TokenResponse:
     query = (
         select(User)
         .where(User.email == payload.email)
@@ -63,23 +73,29 @@ def login(payload: LoginRequest, Authorize: AuthJWT = Depends(), db: Session = D
         )
 
     if not user.is_active:
-        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="User is inactive")
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN, detail="User is inactive"
+        )
 
     return _build_token_response(Authorize, user)
 
 
 @router.post("/refresh", response_model=RefreshResponse)
-def refresh(Authorize: AuthJWT = Depends(), db: Session = Depends(get_db)) -> RefreshResponse:
+def refresh(
+    Authorize: AuthJWT = Depends(), db: Session = Depends(get_db)
+) -> RefreshResponse:
     Authorize.jwt_refresh_token_required()
     user_id = Authorize.get_jwt_subject()
 
     user = db.scalar(
         select(User)
-        .where(User.id == int(user_id))
+        .where(User.id == int(user_id))  # type: ignore
         .options(selectinload(User.roles).selectinload(Role.permissions))
     )
     if not user:
-        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND, detail="User not found"
+        )
 
     roles, permissions = _serialize_access_profile(user)
     access_token = Authorize.create_access_token(
@@ -94,17 +110,19 @@ def me(Authorize: AuthJWT = Depends(), db: Session = Depends(get_db)) -> MeRespo
     user_id = Authorize.get_jwt_subject()
     user = db.scalar(
         select(User)
-        .where(User.id == int(user_id))
+        .where(User.id == int(user_id))  # type: ignore
         .options(selectinload(User.roles).selectinload(Role.permissions))
     )
     if not user:
-        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND, detail="User not found"
+        )
 
     roles, permissions = _serialize_access_profile(user)
     return MeResponse(
         id=user.id,
         full_name=user.full_name,
-        email=user.email,
+        email=user.email,  # type: ignore
         roles=roles,
         permissions=permissions,
     )
