@@ -132,3 +132,7 @@ Setelah itu API dijalankan.
 Project ini menyertakan `Procfile`:
 
 `web: python -m app.entrypoint`
+
+Jika deploy dari root monorepo (bukan langsung folder `api-baldas-blog`), gunakan start command:
+
+`cd api-baldas-blog && python -m app.entrypoint`
