@@ -19,4 +19,4 @@ COPY alembic ./alembic
 
 EXPOSE 8000
 
-CMD ["sh", "-c", "poetry run start"]
+CMD ["python", "-m", "app.entrypoint"]

@@ -1,1 +1,1 @@
-web: poetry run start
+web: python -m app.entrypoint

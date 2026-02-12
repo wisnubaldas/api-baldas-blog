@@ -123,7 +123,7 @@ Start command: `poetry run uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-10
 Saat container start di Koyeb, aplikasi otomatis menjalankan:
 
 - `alembic upgrade head`
-- seed data sample (`poetry run seed`)
+- seed data sample
 
 Setelah itu API dijalankan.
 
@@ -131,4 +131,4 @@ Setelah itu API dijalankan.
 
 Project ini menyertakan `Procfile`:
 
-`web: poetry run start`
+`web: python -m app.entrypoint`
