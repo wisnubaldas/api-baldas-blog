@@ -83,3 +83,31 @@ class UserRole(Base):
         ForeignKey("roles.id", ondelete="CASCADE"), primary_key=True
     )
 
+
+class Menu(Base):
+    __tablename__ = "menus"
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+    menu_key: Mapped[str] = mapped_column(String(255), unique=True, nullable=False, index=True)
+    section_title: Mapped[str] = mapped_column(String(80), nullable=False, index=True)
+    parent_id: Mapped[int | None] = mapped_column(
+        ForeignKey("menus.id", ondelete="CASCADE"), nullable=True, index=True
+    )
+    label: Mapped[str] = mapped_column(String(120), nullable=False)
+    href: Mapped[str | None] = mapped_column(String(255), nullable=True)
+    icon: Mapped[str | None] = mapped_column(String(80), nullable=True)
+    list_id: Mapped[str | None] = mapped_column(String(120), nullable=True)
+    badge_text: Mapped[str | None] = mapped_column(String(50), nullable=True)
+    badge_class_name: Mapped[str | None] = mapped_column(String, nullable=True)
+    is_active: Mapped[bool] = mapped_column(Boolean, default=False, nullable=False)
+    is_hidden: Mapped[bool] = mapped_column(Boolean, default=False, nullable=False)
+    show_more_toggle: Mapped[bool] = mapped_column(Boolean, default=False, nullable=False)
+    initially_open: Mapped[bool] = mapped_column(Boolean, default=False, nullable=False)
+    depth: Mapped[int] = mapped_column(default=0, nullable=False)
+    sort_order: Mapped[int] = mapped_column(default=0, nullable=False)
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), server_default=func.now(), nullable=False
+    )
+    updated_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), server_default=func.now(), onupdate=func.now(), nullable=False
+    )

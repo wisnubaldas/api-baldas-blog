@@ -1,3 +1,12 @@
+"""Endpoint autentikasi dan profil pengguna.
+
+Rute yang tersedia:
+- POST /auth/register: registrasi user baru.
+- POST /auth/login: login dan mendapatkan access + refresh token.
+- POST /auth/refresh: membuat access token baru dari refresh token.
+- GET /auth/me: mengambil profil user dari access token aktif.
+"""
+
 from fastapi import APIRouter, Depends, HTTPException, status
 from fastapi_jwt_auth import AuthJWT
 from passlib.context import CryptContext
@@ -19,6 +28,7 @@ pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
 
 def _serialize_access_profile(user: User) -> tuple[list[str], list[str]]:
+    """Bangun daftar role dan permission user dalam bentuk string terurut."""
     role_names = sorted(role.name for role in user.roles)
     permission_codes = sorted(
         {permission.code for role in user.roles for permission in role.permissions}
@@ -27,6 +37,7 @@ def _serialize_access_profile(user: User) -> tuple[list[str], list[str]]:
 
 
 def _build_token_response(Authorize: AuthJWT, user: User) -> TokenResponse:
+    """Buat pasangan JWT access token dan refresh token untuk user."""
     roles, permissions = _serialize_access_profile(user)
     claims = {"roles": roles, "permissions": permissions}
     access_token = Authorize.create_access_token(
@@ -38,6 +49,13 @@ def _build_token_response(Authorize: AuthJWT, user: User) -> TokenResponse:
 
 @router.post("/register", status_code=status.HTTP_201_CREATED)
 def register(payload: RegisterRequest, db: Session = Depends(get_db)) -> dict[str, str]:
+    """Registrasi user baru.
+
+    Alur:
+    - Validasi email belum terdaftar.
+    - Hash password dengan bcrypt.
+    - Simpan user baru dalam status aktif.
+    """
     existing_user = db.scalar(select(User).where(User.email == payload.email))
     if existing_user:
         raise HTTPException(
@@ -59,6 +77,12 @@ def register(payload: RegisterRequest, db: Session = Depends(get_db)) -> dict[st
 def login(
     payload: LoginRequest, Authorize: AuthJWT = Depends(), db: Session = Depends(get_db)
 ) -> TokenResponse:
+    """Autentikasi user berdasarkan email dan password.
+
+    Jika kredensial valid dan user aktif, endpoint akan mengembalikan:
+    - access_token: token untuk akses endpoint terlindungi.
+    - refresh_token: token untuk meminta access token baru.
+    """
     query = (
         select(User)
         .where(User.email == payload.email)
@@ -84,6 +108,7 @@ def login(
 def refresh(
     Authorize: AuthJWT = Depends(), db: Session = Depends(get_db)
 ) -> RefreshResponse:
+    """Buat access token baru menggunakan refresh token yang valid."""
     Authorize.jwt_refresh_token_required()
     user_id = Authorize.get_jwt_subject()
 
@@ -106,6 +131,10 @@ def refresh(
 
 @router.get("/me", response_model=MeResponse)
 def me(Authorize: AuthJWT = Depends(), db: Session = Depends(get_db)) -> MeResponse:
+    """Ambil profil user saat ini dari access token.
+
+    Mengembalikan identitas dasar user serta daftar role dan permission.
+    """
     Authorize.jwt_required()
     user_id = Authorize.get_jwt_subject()
     user = db.scalar(
