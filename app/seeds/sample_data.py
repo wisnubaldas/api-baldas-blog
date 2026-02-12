@@ -107,25 +107,6 @@ MENU_SECTIONS: list[dict[str, Any]] = [
                     {"label": "Terms & Conditions", "href": "#"},
                 ],
             },
-            {
-                "label": "Multi Level Menu",
-                "icon": "unfold_more",
-                "children": [
-                    {"label": "First", "href": "#"},
-                    {
-                        "label": "Second",
-                        "badge": {
-                            "text": "2",
-                            "className": "rounded-full font-medium inline-block text-center w-[20px] h-[20px] text-[11px] leading-[20px] text-orange-500 bg-orange-50 dark:bg-[#ffffff14] ltr:ml-auto rtl:mr-auto",
-                        },
-                        "children": [
-                            {"label": "Second 1", "href": "#"},
-                            {"label": "Second 2", "href": "#"},
-                        ],
-                    },
-                    {"label": "Third", "href": "#"},
-                ],
-            },
             {"label": "Logout", "icon": "logout", "href": "#"},
         ],
     },
@@ -310,11 +291,12 @@ def run_seed(db: Session) -> None:
         permission_map["posts.create"],
         permission_map["posts.update"],
     ]
-    writer_role.permissions = [permission_map["posts.read"], permission_map["posts.create"]]
+    writer_role.permissions = [
+        permission_map["posts.read"],
+        permission_map["posts.create"],
+    ]
 
-    admin_user = _get_or_create_user(
-        db, "Admin Baldas", "admin@baldas.dev", "admin123"
-    )
+    admin_user = _get_or_create_user(db, "Admin Baldas", "admin@baldas.dev", "admin123")
     editor_user = _get_or_create_user(
         db, "Editor Baldas", "editor@baldas.dev", "editor123"
     )
