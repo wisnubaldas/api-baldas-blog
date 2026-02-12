@@ -129,10 +129,14 @@ Setelah itu API dijalankan.
 
 ### Opsi 2: Buildpack deployment
 
+Untuk repository ini (monorepo), aktifkan `Work directory` override di Koyeb dan isi:
+
+`api-baldas-blog`
+
 Project ini menyertakan `Procfile`:
 
-`web: python -m app.entrypoint`
+`web: sh start.sh`
 
 Jika deploy dari root monorepo (bukan langsung folder `api-baldas-blog`), gunakan start command:
 
-`cd api-baldas-blog && python -m app.entrypoint`
+`sh start.sh`

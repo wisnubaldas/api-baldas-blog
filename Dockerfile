@@ -16,7 +16,8 @@ RUN poetry install --only main
 COPY app ./app
 COPY alembic.ini ./alembic.ini
 COPY alembic ./alembic
+COPY start.sh ./start.sh
 
 EXPOSE 8000
 
-CMD ["python", "-m", "app.entrypoint"]
+CMD ["sh", "start.sh"]
