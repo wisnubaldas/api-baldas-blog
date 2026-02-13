@@ -47,16 +47,26 @@ Seed ini membuat data sample:
 
 ## Menjalankan API
 
-Mode development:
+Jalankan dari folder `api-baldas-blog`.
+
+Mode development (auto-reload, tanpa migrasi/seed otomatis):
 
 ```bash
+poetry run alembic upgrade head
+poetry run seed
 poetry run dev
 ```
 
-Mode production:
+Mode production (migrasi + seed otomatis saat startup):
 
 ```bash
 poetry run prod
+```
+
+Alternatif setara startup Koyeb:
+
+```bash
+python app/entrypoint.py
 ```
 
 API aktif di `http://127.0.0.1:8000`.

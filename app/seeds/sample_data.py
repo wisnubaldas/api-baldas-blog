@@ -11,57 +11,53 @@ pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
 MENU_SECTIONS: list[dict[str, Any]] = [
     {
-        "title": "Main",
+        "title": "Finance",
         "items": [
             {
-                "label": "Dashboard",
-                "icon": "dashboard",
-                "badge": {
-                    "text": "30",
-                    "className": "rounded-full font-medium inline-block text-center w-[20px] h-[20px] text-[11px] leading-[20px] text-orange-500 bg-orange-50 dark:bg-[#ffffff14] ltr:ml-auto rtl:mr-auto",
-                },
-                "listId": "dashboardItemsList",
-                "showMoreToggle": True,
+                "label": "Master",
+                "icon": "folder",
                 "children": [
-                    {"label": "Blank Page", "href": "/", "active": False},
-                    {"label": "Dashboard Pengunjung", "href": "/dashboard-contoh"},
-                    {"label": "eCommerce", "href": "#"},
-                    {"label": "CRM", "href": "#"},
-                    {"label": "Project Management", "href": "#"},
-                    {"label": "LMS", "href": "#"},
-                    {"label": "Analytics", "href": "#"},
-                    {"label": "Crypto", "href": "#"},
-                    {"label": "Sales", "href": "#"},
-                    {"label": "Hospital", "href": "#"},
+                    {
+                        "label": "Chart Of Account",
+                        "href": "/finance/master/chart_of_account",
+                    },
+                    {"label": "Vendor", "href": "/finance/master/vendor"},
+                    {"label": "Customer", "href": "/finance/master/customer"},
                 ],
             },
             {
-                "label": "Extra Pages",
-                "icon": "content_copy",
-                "active": True,
-                "initiallyOpen": True,
+                "label": "Transaction",
+                "icon": "receipt_long",
                 "children": [
-                    {"label": "Pricing", "href": "#"},
-                    {"label": "Timeline", "href": "#"},
-                    {"label": "FAQ", "href": "#"},
-                    {"label": "Gallery", "href": "#"},
-                    {"label": "Testimonials", "href": "#"},
-                    {"label": "Search", "href": "#"},
-                    {"label": "Coming Soon", "href": "#"},
+                    {"label": "Journal", "href": "/finance/transaction/journal"},
+                    {"label": "Invoice AR", "href": "/finance/transaction/invoice_ar"},
+                    {"label": "Invoice AP", "href": "/finance/transaction/invoice_ap"},
+                    {"label": "Payment", "href": "/finance/transaction/payment"},
                 ],
             },
             {
-                "label": "Errors",
-                "icon": "error",
+                "label": "Report",
+                "icon": "assessment",
                 "children": [
-                    {"label": "404 Error Page", "href": "#"},
-                    {"label": "Internal Error", "href": "#"},
+                    {"label": "Trial Balance", "href": "/finance/report/trial_balance"},
+                    {"label": "Profit Loss", "href": "/finance/report/profit_loss"},
+                    {"label": "Balance Sheet", "href": "/finance/report/balance_sheet"},
                 ],
             },
-            {"label": "Widgets", "icon": "widgets", "href": "#"},
-            {"label": "Maps", "icon": "map", "href": "#"},
-            {"label": "Notifications", "icon": "notifications", "href": "#"},
-            {"label": "Members", "icon": "people", "href": "#"},
+            {
+                "label": "Service",
+                "icon": "build",
+                "children": [
+                    {
+                        "label": "Posting Engine",
+                        "href": "/finance/service/posting_engine",
+                    },
+                    {
+                        "label": "Reconciliation",
+                        "href": "/finance/service/reconciliation",
+                    },
+                ],
+            },
         ],
     },
     {
@@ -79,7 +75,7 @@ MENU_SECTIONS: list[dict[str, Any]] = [
                     {"label": "Terms & Conditions", "href": "#"},
                 ],
             },
-            {"label": "Logout", "icon": "logout", "href": "#"},
+            {"label": "Logout", "icon": "logout", "href": "/auth/logout"},
         ],
     },
 ]
