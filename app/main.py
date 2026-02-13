@@ -11,11 +11,13 @@ File ini bertanggung jawab untuk:
 import os
 from typing import Any
 
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import JSONResponse
 from fastapi_jwt_auth import AuthJWT
+from fastapi_jwt_auth.exceptions import AuthJWTException
 
-from app.api import auth_router, menu_router
+from app.api import auth_router, menu_router, user_router, roles_permission_router
 from app.core.config import JWTSettings
 
 
@@ -50,8 +52,49 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
+PUBLIC_PATHS = {
+    "/auth/register",
+    "/auth/login",
+    "/auth/refresh",
+    "/docs",
+    "/redoc",
+    "/openapi.json",
+    "/health",
+    "/",
+}
+
+
+@app.middleware("http")
+async def require_authenticated_user(request: Request, call_next):
+    """Middleware autentikasi global berbasis JWT access token.
+
+    Perilaku:
+    - Semua endpoint private wajib membawa access token yang valid.
+    - Endpoint yang ada di `PUBLIC_PATHS` dibiarkan lewat tanpa token.
+    - Jika token tidak ada/tidak valid, request dihentikan dengan HTTP 401.
+    - Jika token valid, request diteruskan dan response asli endpoint dikembalikan.
+
+    Catatan:
+    - Karena validasi dilakukan *sebelum* endpoint dieksekusi, route private tidak
+      akan memproses logic bisnis ketika user belum login.
+    """
+    path = request.url.path
+    if request.method == "OPTIONS" or path in PUBLIC_PATHS:
+        return await call_next(request)
+
+    try:
+        AuthJWT(req=request).jwt_required()
+    except AuthJWTException:
+        return JSONResponse(status_code=401, content={"detail": "Unauthorized"})
+
+    return await call_next(request)
+
+
 app.include_router(auth_router)
 app.include_router(menu_router)
+app.include_router(user_router)
+app.include_router(roles_permission_router)
 
 
 @AuthJWT.load_config

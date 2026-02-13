@@ -29,38 +29,10 @@ MENU_SECTIONS: list[dict[str, Any]] = [
                     {"label": "CRM", "href": "#"},
                     {"label": "Project Management", "href": "#"},
                     {"label": "LMS", "href": "#"},
-                    {
-                        "label": "HelpDesk",
-                        "href": "#",
-                        "badge": {
-                            "text": "Hot",
-                            "className": "text-[10px] font-medium py-[1px] px-[8px] ltr:ml-[8px] rtl:mr-[8px] text-orange-500 bg-orange-100 dark:bg-[#ffffff14] inline-block rounded-sm",
-                        },
-                    },
                     {"label": "Analytics", "href": "#"},
                     {"label": "Crypto", "href": "#"},
                     {"label": "Sales", "href": "#"},
                     {"label": "Hospital", "href": "#"},
-                    {"label": "HRM", "href": "#", "hidden": True},
-                    {"label": "School", "href": "#", "hidden": True},
-                    {
-                        "label": "Call Center",
-                        "href": "#",
-                        "hidden": True,
-                        "badge": {
-                            "text": "Popular",
-                            "className": "text-[10px] font-medium py-[1px] px-[8px] ltr:ml-[8px] rtl:mr-[8px] text-success-600 bg-success-100 dark:bg-[#ffffff14] inline-block rounded-sm",
-                        },
-                    },
-                    {
-                        "label": "Real Estate",
-                        "href": "#",
-                        "hidden": True,
-                        "badge": {
-                            "text": "Top",
-                            "className": "text-[10px] font-medium py-[1px] px-[8px] ltr:ml-[8px] rtl:mr-[8px] text-purple-500 bg-purple-100 dark:bg-[#ffffff14] inline-block rounded-sm",
-                        },
-                    },
                 ],
             },
             {

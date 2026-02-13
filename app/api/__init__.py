@@ -18,6 +18,8 @@ Jika ingin tambah route menu:
 
 from app.api.auth import router as auth_router
 from app.api.menu import router as menu_router
+from app.api.user import router as user_router
+from app.api.roles_permission import router as roles_permission_router
 
 # Simbol resmi yang diexport saat `from app.api import *`.
-__all__ = ["auth_router", "menu_router"]
+__all__ = ["auth_router", "menu_router", "user_router", "roles_permission_router"]
