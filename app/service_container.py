@@ -7,6 +7,7 @@ from app.core.database import get_db
 from app.repository.menu_repository import MenuRepository
 from app.repository.rbac_repository import RBACRepository
 from app.repository.user_repository import UserRepository
+from app.services.datatables_service import DataTablesService
 from app.services.menu_service import MenuService
 from app.services.rbac_service import RBACService
 from app.services.user_service import UserService
@@ -34,6 +35,11 @@ def get_user_service(
 ) -> UserService:
     """Dependency provider: injeksi service user dengan repository."""
     return UserService(repository)
+
+
+def get_datatables_service(db: Session = Depends(get_db)) -> DataTablesService:
+    """Dependency provider: injeksi service DataTables generik."""
+    return DataTablesService(db)
 
 
 def get_rbac_repository(db: Session = Depends(get_db)) -> RBACRepository:

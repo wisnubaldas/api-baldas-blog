@@ -61,13 +61,14 @@ MENU_SECTIONS: list[dict[str, Any]] = [
         ],
     },
     {
-        "title": "Others",
+        "title": "Settings",
         "items": [
             {"label": "My Profile", "icon": "account_circle", "href": "#"},
             {
-                "label": "Settings",
+                "label": "Admin Settings",
                 "icon": "settings",
                 "children": [
+                    {"label": "User Management", "href": "/users/list"},
                     {"label": "Account Settings", "href": "#"},
                     {"label": "Change Password", "href": "#"},
                     {"label": "Connections", "href": "#"},
