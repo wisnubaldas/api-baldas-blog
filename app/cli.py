@@ -5,6 +5,7 @@ import uvicorn
 from app.bootstrap import init_db
 from app.core.database import SessionLocal
 from app.seeds.sample_data import run_seed
+from app.seeds.coa_data import run_coa_seed
 
 
 def _port() -> int:
@@ -24,5 +25,6 @@ def seed() -> None:
     db = SessionLocal()
     try:
         run_seed(db)
+        run_coa_seed(db)
     finally:
         db.close()

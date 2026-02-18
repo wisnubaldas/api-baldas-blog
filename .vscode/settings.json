@@ -4,5 +4,8 @@
   "python.analysis.extraPaths": [
     "${workspaceFolder}",
     "${workspaceFolder}\\app"
-  ]
+  ],
+  "files.exclude": {
+    "**/__pycache__": true
+  }
 }

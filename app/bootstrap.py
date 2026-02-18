@@ -5,6 +5,7 @@ from alembic.config import Config
 
 from app.core.database import SessionLocal
 from app.seeds.sample_data import run_seed
+from app.seeds.coa_data import run_coa_seed
 
 
 def init_db() -> None:
@@ -16,5 +17,6 @@ def init_db() -> None:
     db = SessionLocal()
     try:
         run_seed(db)
+        run_coa_seed(db)
     finally:
         db.close()
