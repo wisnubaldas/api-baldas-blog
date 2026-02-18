@@ -69,11 +69,15 @@ MENU_SECTIONS: list[dict[str, Any]] = [
                 "icon": "settings",
                 "children": [
                     {"label": "User Management", "href": "/users/list"},
-                    {"label": "Account Settings", "href": "#"},
-                    {"label": "Change Password", "href": "#"},
-                    {"label": "Connections", "href": "#"},
-                    {"label": "Privacy Policy", "href": "#"},
-                    {"label": "Terms & Conditions", "href": "#"},
+                    {"label": "User Role Permission", "href": "/users/role-permission"},
+                ],
+            },
+            {
+                "label": "RBAC Settings",
+                "icon": "group",
+                "children": [
+                    {"label": "Roles", "href": "/auth/roles"},
+                    {"label": "Permissions", "href": "/auth/permissions"},
                 ],
             },
             {"label": "Logout", "icon": "logout", "href": "/auth/logout"},

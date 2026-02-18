@@ -31,7 +31,7 @@ def _parse_cors_origins() -> list[str]:
     """
     raw = os.getenv(
         "CORS_ORIGINS",
-        "https://app.wisnubaldas.net,http://localhost:4321,http://127.0.0.1:4321",
+        "https://wms.wisnubaldas.net,https://app.wisnubaldas.net,http://localhost:4321,http://127.0.0.1:4321",
     )
     return [origin.strip() for origin in raw.split(",") if origin.strip()]
 
