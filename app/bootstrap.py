@@ -4,8 +4,11 @@ from alembic import command
 from alembic.config import Config
 
 from app.core.database import SessionLocal
-from app.seeds.sample_data import run_seed
 from app.seeds.coa_data import run_coa_seed
+from app.seeds.customer_data import run_customer_seed
+from app.seeds.fin_settings_data import run_fin_settings_seed
+from app.seeds.sample_data import run_seed
+from app.seeds.vendor_data import run_vendor_seed
 
 
 def init_db() -> None:
@@ -18,5 +21,8 @@ def init_db() -> None:
     try:
         run_seed(db)
         run_coa_seed(db)
+        run_vendor_seed(db)
+        run_customer_seed(db)
+        run_fin_settings_seed(db)
     finally:
         db.close()
