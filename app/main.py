@@ -20,6 +20,11 @@ from fastapi_jwt_auth.exceptions import AuthJWTException
 from app.api import auth_router, menu_router, user_router, roles_permission_router
 from app.core.config import JWTSettings
 
+CORS_ORIGINS_DEFAULT = (
+    "https://wms.wisnubaldas.net,https://app.wisnubaldas.net,"
+    "http://localhost:4321,http://127.0.0.1:4321"
+)
+
 
 def _parse_cors_origins() -> list[str]:
     """Parse daftar origin CORS dari environment variable `CORS_ORIGINS`.
@@ -31,7 +36,7 @@ def _parse_cors_origins() -> list[str]:
     """
     raw = os.getenv(
         "CORS_ORIGINS",
-        "https://wms.wisnubaldas.net,https://app.wisnubaldas.net,http://localhost:4321,http://127.0.0.1:4321",
+        CORS_ORIGINS_DEFAULT,
     )
     return [origin.strip() for origin in raw.split(",") if origin.strip()]
 
@@ -44,9 +49,11 @@ app = FastAPI(
     ),
 )
 
+cors_origins = _parse_cors_origins()
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=_parse_cors_origins(),
+    allow_origins=cors_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
