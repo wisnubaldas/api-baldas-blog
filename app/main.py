@@ -17,7 +17,13 @@ from fastapi.responses import JSONResponse
 from fastapi_jwt_auth import AuthJWT
 from fastapi_jwt_auth.exceptions import AuthJWTException
 
-from app.api import auth_router, menu_router, user_router, roles_permission_router
+from app.api import (
+    auth_router,
+    coa_router,
+    menu_router,
+    roles_permission_router,
+    user_router,
+)
 from app.core.config import JWTSettings
 
 CORS_ORIGINS_DEFAULT = (
@@ -102,6 +108,7 @@ app.include_router(auth_router)
 app.include_router(menu_router)
 app.include_router(user_router)
 app.include_router(roles_permission_router)
+app.include_router(coa_router)
 
 
 @AuthJWT.load_config

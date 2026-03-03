@@ -153,3 +153,6 @@ Jika deploy dari root monorepo (bukan langsung folder `api-baldas-blog`), gunaka
 
 Backend URL
 `https://violent-allix-wisnubaldas-141a8ea3.koyeb.app/`
+
+ChatGPT Project
+`https://chatgpt.com/g/g-p-6988c44ac3d481919f505eb872147f7e-wisnubaldas-blog/project`

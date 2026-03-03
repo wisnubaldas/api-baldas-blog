@@ -1,0 +1,5952 @@
+[
+  {
+    "code": "1000",
+    "name": "Aset",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 0,
+    "path": "1000",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "1100",
+    "name": "Aset Lancar",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 1,
+    "path": "1000/1100",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "1101",
+    "name": "Kas",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 2,
+    "path": "1000/1100/1101",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "1102",
+    "name": "Bank",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 2,
+    "path": "1000/1100/1102",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "1103",
+    "name": "Surat Berharga < 3 bulan",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 2,
+    "path": "1000/1100/1103",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "1104",
+    "name": "Investasi Jangka Pendek",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 2,
+    "path": "1000/1100/1104",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "1105",
+    "name": "Piutang",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 2,
+    "path": "1000/1100/1105",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "1106",
+    "name": "Uang Muka",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 2,
+    "path": "1000/1100/1106",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "1107",
+    "name": "Biaya Dibayar Dimuka",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 2,
+    "path": "1000/1100/1107",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "1108",
+    "name": "Pajak Dibayar Dimuka",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 2,
+    "path": "1000/1100/1108",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "1109",
+    "name": "Persediaan",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 2,
+    "path": "1000/1100/1109",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "1199",
+    "name": "Aset Lancar Lainnya",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 2,
+    "path": "1000/1100/1199",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "1200",
+    "name": "Aset Tidak Lancar",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 1,
+    "path": "1000/1200",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "1201",
+    "name": "Perolehan Aset Tetap Berwujud",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 2,
+    "path": "1000/1200/1201",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "1202",
+    "name": "Akumulasi Penyusutan Aset Tetap Berwujud",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 2,
+    "path": "1000/1200/1202",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "1203",
+    "name": "Perolehan Aset Tetap Tidak Berwujud",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 2,
+    "path": "1000/1200/1203",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "1204",
+    "name": "Akumulasi Amortisasi Aset Tetap Tidak Berwujud",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 2,
+    "path": "1000/1200/1204",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "1205",
+    "name": "Aset Tetap Dalam Pengerjaan",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 2,
+    "path": "1000/1200/1205",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "1206",
+    "name": "Jaminan",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 2,
+    "path": "1000/1200/1206",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "1207",
+    "name": "Investasi Jangka Panjang",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 2,
+    "path": "1000/1200/1207",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "1208",
+    "name": "Piutang Tidak Lancar",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 2,
+    "path": "1000/1200/1208",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "1209",
+    "name": "Biaya Ditangguhkan",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 2,
+    "path": "1000/1200/1209",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "1299",
+    "name": "Aset Tidak Lancar Lainnya",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 2,
+    "path": "1000/1200/1299",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "2000",
+    "name": "Liabilitas",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 0,
+    "path": "2000",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "2100",
+    "name": "Liabilitas Lancar",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 1,
+    "path": "2000/2100",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "2101",
+    "name": "Hutang",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 2,
+    "path": "2000/2100/2101",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "2102",
+    "name": "Hutang Pajak",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 2,
+    "path": "2000/2100/2102",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "2103",
+    "name": "Biaya Yang Masih Harus Dibayar",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 2,
+    "path": "2000/2100/2103",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "2104",
+    "name": "Dana Titipan",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 2,
+    "path": "2000/2100/2104",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "2105",
+    "name": "Penerimaan Ditangguhkan",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 2,
+    "path": "2000/2100/2105",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "2199",
+    "name": "Liabilitas Lancar Lainnya",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 2,
+    "path": "2000/2100/2199",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "2200",
+    "name": "Liabilitas Jangka Panjang",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 1,
+    "path": "2000/2200",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "2201",
+    "name": "Hutang Pihak Ketiga Jangka Panjang",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 2,
+    "path": "2000/2200/2201",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "2299",
+    "name": "Liabilitas Jangka Panjang Lainnya",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 2,
+    "path": "2000/2200/2299",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "3000",
+    "name": "Aset Neto",
+    "account_type": "EQUITY",
+    "category": "EQUITY",
+    "level": 0,
+    "path": "3000",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "3100",
+    "name": "Aset Neto",
+    "account_type": "EQUITY",
+    "category": "EQUITY",
+    "level": 1,
+    "path": "3000/3100",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "3101",
+    "name": "Aset Neto Tanpa Pembatasan",
+    "account_type": "EQUITY",
+    "category": "EQUITY",
+    "level": 2,
+    "path": "3000/3100/3101",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "3102",
+    "name": "Aset Neto Dengan Pembatasan",
+    "account_type": "EQUITY",
+    "category": "EQUITY",
+    "level": 2,
+    "path": "3000/3100/3102",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "3900",
+    "name": "Akumulasi Penghasilan Komprehensif Lain (OCI)",
+    "account_type": "EQUITY",
+    "category": "EQUITY",
+    "level": 1,
+    "path": "3000/3900",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "4000",
+    "name": "Penerimaan",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 0,
+    "path": "4000",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "4100",
+    "name": "Pendapatan (Sumbangan)",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 1,
+    "path": "4000/4100",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "4101",
+    "name": "Hibah",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 2,
+    "path": "4000/4100/4101",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "4102",
+    "name": "Hibah Barang & Jasa (In-kind)",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 2,
+    "path": "4000/4100/4102",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "4103",
+    "name": "Donasi",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 2,
+    "path": "4000/4100/4103",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "4104",
+    "name": "Kontribusi",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 2,
+    "path": "4000/4100/4104",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "4105",
+    "name": "Zakat/Infaq/Shodaqoh (ZISWAF)",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 2,
+    "path": "4000/4100/4105",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "4106",
+    "name": "Iuran Anggota",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 2,
+    "path": "4000/4100/4106",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "4107",
+    "name": "Penerimaan Dukungan Institusi",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 2,
+    "path": "4000/4100/4107",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "4200",
+    "name": "Penghasilan (Non Sumbangan)",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 1,
+    "path": "4000/4200",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "4201",
+    "name": "Jasa Layanan",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 2,
+    "path": "4000/4200/4201",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "4202",
+    "name": "Penyewaan Fasilitas",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 2,
+    "path": "4000/4200/4202",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "4203",
+    "name": "Penjualan Barang",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 2,
+    "path": "4000/4200/4203",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "4204",
+    "name": "Hasil Investasi",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 2,
+    "path": "4000/4200/4204",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "4300",
+    "name": "Penghasilan Komprehensif Lain",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 1,
+    "path": "4000/4300",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "4301",
+    "name": "Aset Neto Dibebaskan dari Pembatasan",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 2,
+    "path": "4000/4300/4301",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "4302",
+    "name": "Aset Neto Berakhir Batasannya",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 2,
+    "path": "4000/4300/4302",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "4303",
+    "name": "Pendapatan Bunga Bank",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 2,
+    "path": "4000/4300/4303",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "4304",
+    "name": "Laba Penghapusan Aset Tetap",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 2,
+    "path": "4000/4300/4304",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "4305",
+    "name": "Laba Selisih Kurs",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 2,
+    "path": "4000/4300/4305",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "4399",
+    "name": "Penerimaan Lain-lain",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 2,
+    "path": "4000/4300/4399",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "5000",
+    "name": "Biaya",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 0,
+    "path": "5000",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "5100",
+    "name": "Beban Program",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 1,
+    "path": "5000/5100",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "5101",
+    "name": "Beban Personil",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 2,
+    "path": "5000/5100/5101",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "5102",
+    "name": "Beban Profesional",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 2,
+    "path": "5000/5100/5102",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "5103",
+    "name": "Beban Perjalanan Dinas",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 2,
+    "path": "5000/5100/5103",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "5104",
+    "name": "Beban Rapat",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 2,
+    "path": "5000/5100/5104",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "5105",
+    "name": "Beban Administrasi Kantor",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 2,
+    "path": "5000/5100/5105",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "5106",
+    "name": "Beban Pengadaan",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 2,
+    "path": "5000/5100/5106",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "5107",
+    "name": "Beban Publikasi",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 2,
+    "path": "5000/5100/5107",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "5108",
+    "name": "Beban Bantuan",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 2,
+    "path": "5000/5100/5108",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "5109",
+    "name": "Beban Pemakaian Persediaan",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 2,
+    "path": "5000/5100/5109",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "5110",
+    "name": "Beban Penyusutan",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 2,
+    "path": "5000/5100/5110",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "5111",
+    "name": "Beban Amortisasi",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 2,
+    "path": "5000/5100/5111",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "5112",
+    "name": "Beban Overhead Program",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 2,
+    "path": "5000/5100/5112",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "5200",
+    "name": "Beban Pendanaan",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 1,
+    "path": "5000/5200",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "5201",
+    "name": "Beban Personil",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 2,
+    "path": "5000/5200/5201",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "5202",
+    "name": "Beban Profesional",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 2,
+    "path": "5000/5200/5202",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "5203",
+    "name": "Beban Perjalanan Dinas",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 2,
+    "path": "5000/5200/5203",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "5204",
+    "name": "Beban Rapat",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 2,
+    "path": "5000/5200/5204",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "5205",
+    "name": "Beban Administrasi Kantor",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 2,
+    "path": "5000/5200/5205",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "5206",
+    "name": "Beban Pengadaan",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 2,
+    "path": "5000/5200/5206",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "5207",
+    "name": "Beban Publikasi",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 2,
+    "path": "5000/5200/5207",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "5208",
+    "name": "Beban Bantuan",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 2,
+    "path": "5000/5200/5208",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "5209",
+    "name": "Beban Pemakaian Persediaan",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 2,
+    "path": "5000/5200/5209",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "5210",
+    "name": "Beban Penyusutan",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 2,
+    "path": "5000/5200/5210",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "5211",
+    "name": "Beban Amortisasi",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 2,
+    "path": "5000/5200/5211",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "5212",
+    "name": "Beban Overhead Program",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 2,
+    "path": "5000/5200/5212",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "5300",
+    "name": "Beban Manajemen Umum",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 1,
+    "path": "5000/5300",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "5301",
+    "name": "Beban Personil",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 2,
+    "path": "5000/5300/5301",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "5302",
+    "name": "Beban Profesional",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 2,
+    "path": "5000/5300/5302",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "5303",
+    "name": "Beban Perjalanan Dinas",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 2,
+    "path": "5000/5300/5303",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "5304",
+    "name": "Beban Rapat",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 2,
+    "path": "5000/5300/5304",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "5305",
+    "name": "Beban Administrasi Kantor",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 2,
+    "path": "5000/5300/5305",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "5306",
+    "name": "Beban Pengadaan",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 2,
+    "path": "5000/5300/5306",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "5307",
+    "name": "Beban Publikasi",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 2,
+    "path": "5000/5300/5307",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "5308",
+    "name": "Beban Bantuan",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 2,
+    "path": "5000/5300/5308",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "5309",
+    "name": "Beban Pemakaian Persediaan",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 2,
+    "path": "5000/5300/5309",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "5310",
+    "name": "Beban Penyusutan",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 2,
+    "path": "5000/5300/5310",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "5311",
+    "name": "Beban Amortisasi",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 2,
+    "path": "5000/5300/5311",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "5312",
+    "name": "Beban Overhead Program",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 2,
+    "path": "5000/5300/5312",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "5400",
+    "name": "Beban Lain-lain",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 1,
+    "path": "5000/5400",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "5401",
+    "name": "Beban Admin Bank",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 2,
+    "path": "5000/5400/5401",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "5402",
+    "name": "Rugi Selisih Kurs",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 2,
+    "path": "5000/5400/5402",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "5403",
+    "name": "Rugi Penghapusan Aset Tetap",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 2,
+    "path": "5000/5400/5403",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "5499",
+    "name": "Beban Lainnya",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 2,
+    "path": "5000/5400/5499",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "100001",
+    "name": "Aset - Default",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/100001",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "110001",
+    "name": "Aset Lancar - Default",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1100/110001",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "110101",
+    "name": "Kas Kecil Proyek",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1100/1101/110101",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "110102",
+    "name": "Kas Operasional",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1100/1101/110102",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "110201",
+    "name": "Bank xx-1",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1100/1102/110201",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "110202",
+    "name": "Bank xx-2",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1100/1102/110202",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "110203",
+    "name": "Bank xx-3",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1100/1102/110203",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "110204",
+    "name": "Bank xx-dst",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1100/1102/110204",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "110301",
+    "name": "Deposito Berjangka <=3 bulan",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1100/1103/110301",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "110399",
+    "name": "Surat Berharga Lain-lain<3 bulan",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1100/1103/110399",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "110401",
+    "name": "Deposito Berjangka <=12 bulan",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1100/1104/110401",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "110402",
+    "name": "Reksadana",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1100/1104/110402",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "110403",
+    "name": "Obligasi",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1100/1104/110403",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "110499",
+    "name": "Investasi Jangka Pendek Lain-lain",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1100/1104/110499",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "110501",
+    "name": "Piutang Staf",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1100/1105/110501",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "110502",
+    "name": "Piutang Pihak Ketiga",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1100/1105/110502",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "110503",
+    "name": "Piutang Komitment Donor",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1100/1105/110503",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "110598",
+    "name": "Piutang Antar Program",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1100/1105/110598",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "110599",
+    "name": "Piutang Lain-lain",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1100/1105/110599",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "110601",
+    "name": "Uang Muka Staf",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1100/1106/110601",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "110602",
+    "name": "Uang Muka Mitra Kerja",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1100/1106/110602",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "110699",
+    "name": "Uang Muka Lain-lain",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1100/1106/110699",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "110701",
+    "name": "Sewa Dibayar Dimuka",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1100/1107/110701",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "110702",
+    "name": "Asuransi Dibayar Dimuka",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1100/1107/110702",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "110799",
+    "name": "Biaya Dibayar Dimuka Lain-lain",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1100/1107/110799",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "110801",
+    "name": "PPh Pasal 23 Dibayar Dimuka",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1100/1108/110801",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "110802",
+    "name": "PPh Pasal 4(2) Dibayar Dimuka",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1100/1108/110802",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "110803",
+    "name": "PPN Masukan",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1100/1108/110803",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "110899",
+    "name": "Pajak Dibayar Dimuka Lain-lain",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1100/1108/110899",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "110901",
+    "name": "Persediaan Kantor",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1100/1109/110901",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "110902",
+    "name": "Persediaan Bantuan",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1100/1109/110902",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "110999",
+    "name": "Persediaan Lain-lain",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1100/1109/110999",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "119901",
+    "name": "Ayat Silang-Pindah Buku",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1100/1199/119901",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "120001",
+    "name": "Aset Tidak Lancar - Default",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1200/120001",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "120101",
+    "name": "Perolehan Tanah",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1200/1201/120101",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "120102",
+    "name": "Perolehan Bangunan",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1200/1201/120102",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "120103",
+    "name": "Perolehan Kendaraan",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1200/1201/120103",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "120104",
+    "name": "Perolehan Inventaris Kantor",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1200/1201/120104",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "120199",
+    "name": "Perolehan Perabotan Kantor",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1200/1201/120199",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "120201",
+    "name": "Akm Penyusutan Bangunan",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1200/1202/120201",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "120202",
+    "name": "Akm Penyusutan Kendaraan",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1200/1202/120202",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "120203",
+    "name": "Akm Penyusutan Inventaris Kantor",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1200/1202/120203",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "120204",
+    "name": "Akm Penyusutan Perabotan kantor",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1200/1202/120204",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "120301",
+    "name": "Perolehan Software",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1200/1203/120301",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "120302",
+    "name": "Perolehan Royalti & HAKI",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1200/1203/120302",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "120401",
+    "name": "Akm Amortisasi Software",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1200/1204/120401",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "120402",
+    "name": "Akm AMortisasi HAKI & Royalti",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1200/1204/120402",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "120501",
+    "name": "Jaminan Sewa Gedung",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1200/1205/120501",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "120601",
+    "name": "Piutang Antar Program",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1200/1206/120601",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "120701",
+    "name": "Investasi Jangka Panjang - Default",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1200/1207/120701",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "120801",
+    "name": "Piutang Tidak Lancar - Default",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1200/1208/120801",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "120901",
+    "name": "Biaya Ditangguhkan - Default",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1200/1209/120901",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "129901",
+    "name": "Ayat Silang",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 3,
+    "path": "1000/1200/1299/129901",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "200001",
+    "name": "Liabilitas - Default",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 3,
+    "path": "2000/200001",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "210001",
+    "name": "Liabilitas Lancar - Default",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 3,
+    "path": "2000/2100/210001",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "210101",
+    "name": "Hutang Pihak Ketiga",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 3,
+    "path": "2000/2100/2101/210101",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "210102",
+    "name": "Hutang Karyawan",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 3,
+    "path": "2000/2100/2101/210102",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "210103",
+    "name": "Hutang BPJS",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 3,
+    "path": "2000/2100/2101/210103",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "210198",
+    "name": "Hutang Antar Program",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 3,
+    "path": "2000/2100/2101/210198",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "210199",
+    "name": "Hutang Lain-lain",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 3,
+    "path": "2000/2100/2101/210199",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "210201",
+    "name": "Hutang PPh Pasal 21",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 3,
+    "path": "2000/2100/2102/210201",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "210202",
+    "name": "Hutang PPh Unifikasi Pasal 23",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 3,
+    "path": "2000/2100/2102/210202",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "210203",
+    "name": "Hutang PPh Unifikasi Pasal 4(2)",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 3,
+    "path": "2000/2100/2102/210203",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "210204",
+    "name": "PPN Keluaran",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 3,
+    "path": "2000/2100/2102/210204",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "210299",
+    "name": "Hutang Pajak Lainnya",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 3,
+    "path": "2000/2100/2102/210299",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "210301",
+    "name": "Biaya Program Terutang",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 3,
+    "path": "2000/2100/2103/210301",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "210302",
+    "name": "Biaya Pendanaan Terutang",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 3,
+    "path": "2000/2100/2103/210302",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "210303",
+    "name": "Biaya Manajemen Umum Terutang",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 3,
+    "path": "2000/2100/2103/210303",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "210399",
+    "name": "Biaya Terutang Lain-lain",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 3,
+    "path": "2000/2100/2103/210399",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "210401",
+    "name": "Dana Titipan",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 3,
+    "path": "2000/2100/2104/210401",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "210402",
+    "name": "Jaminan Kerjasama",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 3,
+    "path": "2000/2100/2104/210402",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "210499",
+    "name": "Dana Titipan Lain-lain",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 3,
+    "path": "2000/2100/2104/210499",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "210501",
+    "name": "Sumbangan Ditangguhkan",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 3,
+    "path": "2000/2100/2105/210501",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "210502",
+    "name": "Penghasilan Ditangguhkan",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 3,
+    "path": "2000/2100/2105/210502",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "210599",
+    "name": "Penerimaan Ditangguhkan Lain-lain",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 3,
+    "path": "2000/2100/2105/210599",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "219901",
+    "name": "Ayat Silang-Pindah Buku",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 3,
+    "path": "2000/2100/2199/219901",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "220001",
+    "name": "Liabilitas Jangka Panjang - Default",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 3,
+    "path": "2000/2200/220001",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "220101",
+    "name": "Hutang Bank",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 3,
+    "path": "2000/2200/2201/220101",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "220102",
+    "name": "Hutang Pengurus",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 3,
+    "path": "2000/2200/2201/220102",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "220199",
+    "name": "Hutang Pihak Ketiga Jangka Panjang Lainnya",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 3,
+    "path": "2000/2200/2201/220199",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "229901",
+    "name": "Kewajiban Imbalan Pasca Kerja",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 3,
+    "path": "2000/2200/2299/229901",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "229999",
+    "name": "Liabilitas Jangka Panjang Lainnya",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 3,
+    "path": "2000/2200/2299/229999",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "300001",
+    "name": "Aset Neto - Default",
+    "account_type": "EQUITY",
+    "category": "EQUITY",
+    "level": 3,
+    "path": "3000/300001",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "310001",
+    "name": "Aset Neto - Default",
+    "account_type": "EQUITY",
+    "category": "EQUITY",
+    "level": 3,
+    "path": "3000/3100/310001",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "310101",
+    "name": "Aset Neto Tanpa Pembatasan - Default",
+    "account_type": "EQUITY",
+    "category": "EQUITY",
+    "level": 3,
+    "path": "3000/3100/3101/310101",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "310201",
+    "name": "Aset Neto Dengan Pembatasan - Default",
+    "account_type": "EQUITY",
+    "category": "EQUITY",
+    "level": 3,
+    "path": "3000/3100/3102/310201",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "390001",
+    "name": "Akumulasi Penghasilan Komprehensif Lain (OCI) - Default",
+    "account_type": "EQUITY",
+    "category": "EQUITY",
+    "level": 3,
+    "path": "3000/3900/390001",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "400001",
+    "name": "Penerimaan - Default",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/400001",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "410001",
+    "name": "Pendapatan (Sumbangan) - Default",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4100/410001",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "410101",
+    "name": "Hibah NGO Asing",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4100/4101/410101",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "410102",
+    "name": "Hibah NGO Lokal",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4100/4101/410102",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "410103",
+    "name": "Hibah Bantuan Pemerintah Asing",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4100/4101/410103",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "410104",
+    "name": "Hibah Bantuan Pemerintah Pusat",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4100/4101/410104",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "410105",
+    "name": "Hibah Bantuan Pemerintah Daerah",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4100/4101/410105",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "410106",
+    "name": "Hibah Korporasi Asing",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4100/4101/410106",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "410107",
+    "name": "Hibah Korporasi Lokal",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4100/4101/410107",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "410108",
+    "name": "Hibah Individu Asing",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4100/4101/410108",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "410109",
+    "name": "Hibah Individu Lokal",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4100/4101/410109",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "410199",
+    "name": "Hibah Lain-lain",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4100/4101/410199",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "410201",
+    "name": "Hibah Barang & Jasa NGO Asing",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4100/4102/410201",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "410202",
+    "name": "Hibah Barang & Jasa NGO Lokal",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4100/4102/410202",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "410203",
+    "name": "Hibah Barang & Jasa Bantuan Pemerintah Asing",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4100/4102/410203",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "410204",
+    "name": "Hibah Barang & Jasa Bantuan Pemerintah Pusat",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4100/4102/410204",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "410205",
+    "name": "Hibah Barang & Jasa Bantuan Pemerintah Daerah",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4100/4102/410205",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "410206",
+    "name": "Hibah Barang & Jasa Korporasi Asing",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4100/4102/410206",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "410207",
+    "name": "Hibah Barang & Jasa Korporasi Lokal",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4100/4102/410207",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "410208",
+    "name": "Donasi Barang & Jasa Individu Asing",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4100/4102/410208",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "410209",
+    "name": "Donasi Barang & Jasa Individu Lokal",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4100/4102/410209",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "410299",
+    "name": "Hibah Barang & Jasa Lain-lain",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4100/4102/410299",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "410301",
+    "name": "Donasi NGO Asing",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4100/4103/410301",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "410302",
+    "name": "Donasi NGO Lokal",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4100/4103/410302",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "410303",
+    "name": "Donasi Bantuan Pemerintah Asing",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4100/4103/410303",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "410304",
+    "name": "Donasi Bantuan Pemerintah Pusat",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4100/4103/410304",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "410305",
+    "name": "Donasi Bantuan Pemerintah Daerah",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4100/4103/410305",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "410306",
+    "name": "Donasi Korporasi Asing",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4100/4103/410306",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "410307",
+    "name": "Donasi Korporasi Lokal",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4100/4103/410307",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "410308",
+    "name": "Donasi Individu Asing",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4100/4103/410308",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "410309",
+    "name": "Donasi Individu Lokal",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4100/4103/410309",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "410399",
+    "name": "Donasi Lain-lain",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4100/4103/410399",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "410401",
+    "name": "Kontribusi Internal",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4100/4104/410401",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "410402",
+    "name": "Kontribusi Eksternal",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4100/4104/410402",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "410499",
+    "name": "Kontribusi Lain-lain",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4100/4104/410499",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "410501",
+    "name": "Zakat/Infaq/Shodaqoh (ZISWAF) - Default",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4100/4105/410501",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "410601",
+    "name": "Iuran Anggota - Default",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4100/4106/410601",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "410701",
+    "name": "Penerimaan Dukungan Institusi - Default",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4100/4107/410701",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "420001",
+    "name": "Penghasilan (Non Sumbangan) - Default",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4200/420001",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "420101",
+    "name": "Jasa Pelatihan",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4200/4201/420101",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "420102",
+    "name": "Jasa Kesehatan",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4200/4201/420102",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "420199",
+    "name": "Jasa Lainnya",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4200/4201/420199",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "420201",
+    "name": "Hasil Penyewaan Ruangan",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4200/4202/420201",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "420202",
+    "name": "Hasil Penyewaan Kendaraan",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4200/4202/420202",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "420299",
+    "name": "Hasil Penyewaan Lainnya",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4200/4202/420299",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "420301",
+    "name": "Penjualan Produk Sisa Program",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4200/4203/420301",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "420302",
+    "name": "Penjualan Aksesoris",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4200/4203/420302",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "420399",
+    "name": "Penjualan Barang Lainnya",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4200/4203/420399",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "420401",
+    "name": "Hasil Bunga Investasi",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4200/4204/420401",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "420402",
+    "name": "Hasil Dividen",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4200/4204/420402",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "420499",
+    "name": "Hasil Investasi Lainnya",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4200/4204/420499",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "430001",
+    "name": "Penghasilan Komprehensif Lain - Default",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4300/430001",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "430101",
+    "name": "Aset Neto Dibebaskan dari Pembatasan - Default",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4300/4301/430101",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "430201",
+    "name": "Aset Neto Berakhir Batasannya - Default",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4300/4302/430201",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "430301",
+    "name": "Pendapatan Bunga Bank - Default",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4300/4303/430301",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "430401",
+    "name": "Laba Penghapusan Aset Tetap - Default",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4300/4304/430401",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "430501",
+    "name": "Laba Selisih Kurs - Default",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4300/4305/430501",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "439901",
+    "name": "Penerimaan Lain-lain - Default",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 3,
+    "path": "4000/4300/4399/439901",
+    "is_postable": false,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "510101",
+    "name": "Gaji",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5100/5101/510101",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "510102",
+    "name": "Tunjangan Hari Raya",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5100/5101/510102",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "510103",
+    "name": "Tunjangan Tetap",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5100/5101/510103",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "510104",
+    "name": "Tunjangan Tidak Tetap",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5100/5101/510104",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "510105",
+    "name": "Lembur",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5100/5101/510105",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "510106",
+    "name": "Biaya BPJS",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5100/5101/510106",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "510107",
+    "name": "Biaya Pajak",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5100/5101/510107",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "510108",
+    "name": "Uang Kompensasi",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5100/5101/510108",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "510109",
+    "name": "Uang Pesangon",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5100/5101/510109",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "510199",
+    "name": "Biaya Personil Lain-lain",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5100/5101/510199",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "510201",
+    "name": "Biaya Honor Fasilitasi",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5100/5102/510201",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "510202",
+    "name": "Biaya Konsultan",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5100/5102/510202",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "510203",
+    "name": "Biaya Jasa Audit",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5100/5102/510203",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "510204",
+    "name": "Biaya Legalitas",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5100/5102/510204",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "510299",
+    "name": "Biaya Profesional Lain-lain",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5100/5102/510299",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "510301",
+    "name": "Tiket Pesawat/Kereta/Kapal dll",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5100/5103/510301",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "510302",
+    "name": "Biaya Visa Paspor",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5100/5103/510302",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "510303",
+    "name": "Biaya Transportasi Lokal",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5100/5103/510303",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "510304",
+    "name": "Biaya Sewa Kendaraan",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5100/5103/510304",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "510305",
+    "name": "Uang Komunikasi",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5100/5103/510305",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "510306",
+    "name": "Biaya Akomodasi",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5100/5103/510306",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "510307",
+    "name": "Uang Saku/Perdiem",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5100/5103/510307",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "510399",
+    "name": "Biaya Perjalanan Lain-lain",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5100/5103/510399",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "510401",
+    "name": "Beban Rapat - Default",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5100/5104/510401",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "510501",
+    "name": "Beban Administrasi Kantor - Default",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5100/5105/510501",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "510601",
+    "name": "Beban Pengadaan - Default",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5100/5106/510601",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "510701",
+    "name": "Beban Publikasi - Default",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5100/5107/510701",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "510801",
+    "name": "Beban Bantuan - Default",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5100/5108/510801",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "510901",
+    "name": "Beban Pemakaian Persediaan - Default",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5100/5109/510901",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "511001",
+    "name": "Beban Penyusutan - Default",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5100/5110/511001",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "511101",
+    "name": "Beban Amortisasi - Default",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5100/5111/511101",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "511201",
+    "name": "Beban Overhead Program - Default",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5100/5112/511201",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "520101",
+    "name": "Gaji",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5200/5201/520101",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "520102",
+    "name": "Tunjangan Hari Raya",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5200/5201/520102",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "520103",
+    "name": "Tunjangan Tetap",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5200/5201/520103",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "520104",
+    "name": "Tunjangan Tidak Tetap",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5200/5201/520104",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "520105",
+    "name": "Lembur",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5200/5201/520105",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "520106",
+    "name": "Biaya BPJS",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5200/5201/520106",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "520107",
+    "name": "Biaya Pajak",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5200/5201/520107",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "520108",
+    "name": "Uang Kompensasi",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5200/5201/520108",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "520109",
+    "name": "Uang Pesangon",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5200/5201/520109",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "520199",
+    "name": "Biaya Personil Lain-lain",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5200/5201/520199",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "520201",
+    "name": "Biaya Honor Fasilitasi",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5200/5202/520201",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "520202",
+    "name": "Biaya Konsultan",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5200/5202/520202",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "520203",
+    "name": "Biaya Jasa Audit",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5200/5202/520203",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "520204",
+    "name": "Biaya Legalitas",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5200/5202/520204",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "520299",
+    "name": "Biaya Profesional Lain-lain",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5200/5202/520299",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "520301",
+    "name": "Tiket Pesawat/Kereta/Kapal dll",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5200/5203/520301",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "520302",
+    "name": "Biaya Visa Paspor",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5200/5203/520302",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "520303",
+    "name": "Biaya Transportasi Lokal",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5200/5203/520303",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "520304",
+    "name": "Biaya Sewa Kendaraan",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5200/5203/520304",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "520305",
+    "name": "Uang Komunikasi",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5200/5203/520305",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "520306",
+    "name": "Biaya Akomodasi",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5200/5203/520306",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "520307",
+    "name": "Uang Saku/Perdiem",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5200/5203/520307",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "520399",
+    "name": "Biaya Perjalanan Lain-lain",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5200/5203/520399",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "520401",
+    "name": "Beban Rapat - Default",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5200/5204/520401",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "520501",
+    "name": "Beban Administrasi Kantor - Default",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5200/5205/520501",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "520601",
+    "name": "Beban Pengadaan - Default",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5200/5206/520601",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "520701",
+    "name": "Beban Publikasi - Default",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5200/5207/520701",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "520801",
+    "name": "Beban Bantuan - Default",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5200/5208/520801",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "520901",
+    "name": "Beban Pemakaian Persediaan - Default",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5200/5209/520901",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "521001",
+    "name": "Beban Penyusutan - Default",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5200/5210/521001",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "521101",
+    "name": "Beban Amortisasi - Default",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5200/5211/521101",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "521201",
+    "name": "Beban Overhead Program - Default",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5200/5212/521201",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "530101",
+    "name": "Gaji",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5300/5301/530101",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "530102",
+    "name": "Tunjangan Hari Raya",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5300/5301/530102",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "530103",
+    "name": "Tunjangan Tetap",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5300/5301/530103",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "530104",
+    "name": "Tunjangan Tidak Tetap",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5300/5301/530104",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "530105",
+    "name": "Lembur",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5300/5301/530105",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "530106",
+    "name": "Biaya BPJS",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5300/5301/530106",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "530107",
+    "name": "Biaya Pajak",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5300/5301/530107",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "530108",
+    "name": "Uang Kompensasi",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5300/5301/530108",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "530109",
+    "name": "Uang Pesangon",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5300/5301/530109",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "530199",
+    "name": "Biaya Personil Lain-lain",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5300/5301/530199",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "530201",
+    "name": "Biaya Honor Fasilitasi",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5300/5302/530201",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "530202",
+    "name": "Biaya Konsultan",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5300/5302/530202",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "530203",
+    "name": "Biaya Jasa Audit",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5300/5302/530203",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "530204",
+    "name": "Biaya Legalitas",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5300/5302/530204",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "530299",
+    "name": "Biaya Profesional Lain-lain",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5300/5302/530299",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "530301",
+    "name": "Tiket Pesawat/Kereta/Kapal dll",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5300/5303/530301",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "530302",
+    "name": "Biaya Visa Paspor",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5300/5303/530302",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "530303",
+    "name": "Biaya Transportasi Lokal",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5300/5303/530303",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "530304",
+    "name": "Biaya Sewa Kendaraan",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5300/5303/530304",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "530305",
+    "name": "Uang Komunikasi",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5300/5303/530305",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "530306",
+    "name": "Biaya Akomodasi",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5300/5303/530306",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "530307",
+    "name": "Uang Saku/Perdiem",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5300/5303/530307",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "530399",
+    "name": "Biaya Perjalanan Lain-lain",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5300/5303/530399",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "530401",
+    "name": "Beban Rapat - Default",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5300/5304/530401",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "530501",
+    "name": "Beban Administrasi Kantor - Default",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5300/5305/530501",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "530601",
+    "name": "Beban Pengadaan - Default",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5300/5306/530601",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "530701",
+    "name": "Beban Publikasi - Default",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5300/5307/530701",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "530801",
+    "name": "Beban Bantuan - Default",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5300/5308/530801",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "530901",
+    "name": "Beban Pemakaian Persediaan - Default",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5300/5309/530901",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "531001",
+    "name": "Beban Penyusutan - Default",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5300/5310/531001",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "531101",
+    "name": "Beban Amortisasi - Default",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5300/5311/531101",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "531201",
+    "name": "Beban Overhead Program - Default",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5300/5312/531201",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "540101",
+    "name": "Beban Admin Bank - Default",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5400/5401/540101",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "540201",
+    "name": "Rugi Selisih Kurs - Default",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5400/5402/540201",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "540301",
+    "name": "Rugi Penghapusan Aset Tetap - Default",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5400/5403/540301",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "549901",
+    "name": "Beban Lainnya - Default",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 3,
+    "path": "5000/5400/5499/549901",
+    "is_postable": false,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "10000101",
+    "name": "Aset - Default - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/100001/10000101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "11000101",
+    "name": "Aset Lancar - Default - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1100/110001/11000101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "11010101",
+    "name": "Kas Kecil Proyek - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1100/1101/110101/11010101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "11010201",
+    "name": "Kas Operasional - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1100/1101/110102/11010201",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "11020101",
+    "name": "Bank xx-1 - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1100/1102/110201/11020101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "11020201",
+    "name": "Bank xx-2 - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1100/1102/110202/11020201",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "11020301",
+    "name": "Bank xx-3 - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1100/1102/110203/11020301",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "11020401",
+    "name": "Bank xx-dst - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1100/1102/110204/11020401",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "11030101",
+    "name": "Deposito Berjangka <=3 bulan - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1100/1103/110301/11030101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "11039901",
+    "name": "Surat Berharga Lain-lain<3 bulan - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1100/1103/110399/11039901",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "11040101",
+    "name": "Deposito Berjangka <=12 bulan - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1100/1104/110401/11040101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "11040201",
+    "name": "Reksadana - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1100/1104/110402/11040201",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "11040301",
+    "name": "Obligasi - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1100/1104/110403/11040301",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "11049901",
+    "name": "Investasi Jangka Pendek Lain-lain - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1100/1104/110499/11049901",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "11050101",
+    "name": "Piutang Staf - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1100/1105/110501/11050101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "11050201",
+    "name": "Piutang Pihak Ketiga - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1100/1105/110502/11050201",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "11050301",
+    "name": "Piutang Komitment Donor - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1100/1105/110503/11050301",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "11059801",
+    "name": "Piutang Antar Program - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1100/1105/110598/11059801",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "11059901",
+    "name": "Piutang Lain-lain - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1100/1105/110599/11059901",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "11060101",
+    "name": "Uang Muka Staf - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1100/1106/110601/11060101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "11060201",
+    "name": "Uang Muka Mitra Kerja - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1100/1106/110602/11060201",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "11069901",
+    "name": "Uang Muka Lain-lain - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1100/1106/110699/11069901",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "11070101",
+    "name": "Sewa Dibayar Dimuka - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1100/1107/110701/11070101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "11070201",
+    "name": "Asuransi Dibayar Dimuka - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1100/1107/110702/11070201",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "11079901",
+    "name": "Biaya Dibayar Dimuka Lain-lain - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1100/1107/110799/11079901",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "11080101",
+    "name": "PPh Pasal 23 Dibayar Dimuka - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1100/1108/110801/11080101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "11080201",
+    "name": "PPh Pasal 4(2) Dibayar Dimuka - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1100/1108/110802/11080201",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "11080301",
+    "name": "PPN Masukan - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1100/1108/110803/11080301",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "11089901",
+    "name": "Pajak Dibayar Dimuka Lain-lain - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1100/1108/110899/11089901",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "11090101",
+    "name": "Persediaan Kantor - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1100/1109/110901/11090101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "11090201",
+    "name": "Persediaan Bantuan - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1100/1109/110902/11090201",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "11099901",
+    "name": "Persediaan Lain-lain - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1100/1109/110999/11099901",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "11990101",
+    "name": "Ayat Silang-Pindah Buku - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1100/1199/119901/11990101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "12000101",
+    "name": "Aset Tidak Lancar - Default - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1200/120001/12000101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "12010101",
+    "name": "Perolehan Tanah - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1200/1201/120101/12010101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "12010201",
+    "name": "Perolehan Bangunan - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1200/1201/120102/12010201",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "12010301",
+    "name": "Perolehan Kendaraan - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1200/1201/120103/12010301",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "12010401",
+    "name": "Perolehan Inventaris Kantor - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1200/1201/120104/12010401",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "12019901",
+    "name": "Perolehan Perabotan Kantor - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1200/1201/120199/12019901",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "12020101",
+    "name": "Akm Penyusutan Bangunan - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1200/1202/120201/12020101",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "12020201",
+    "name": "Akm Penyusutan Kendaraan - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1200/1202/120202/12020201",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "12020301",
+    "name": "Akm Penyusutan Inventaris Kantor - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1200/1202/120203/12020301",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "12020401",
+    "name": "Akm Penyusutan Perabotan kantor - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1200/1202/120204/12020401",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "12030101",
+    "name": "Perolehan Software - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1200/1203/120301/12030101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "12030201",
+    "name": "Perolehan Royalti & HAKI - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1200/1203/120302/12030201",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "12040101",
+    "name": "Akm Amortisasi Software - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1200/1204/120401/12040101",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "12040201",
+    "name": "Akm AMortisasi HAKI & Royalti - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1200/1204/120402/12040201",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "12050101",
+    "name": "Jaminan Sewa Gedung - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1200/1205/120501/12050101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "12060101",
+    "name": "Piutang Antar Program - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1200/1206/120601/12060101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "12070101",
+    "name": "Investasi Jangka Panjang - Default - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1200/1207/120701/12070101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "12080101",
+    "name": "Piutang Tidak Lancar - Default - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1200/1208/120801/12080101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "12090101",
+    "name": "Biaya Ditangguhkan - Default - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1200/1209/120901/12090101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "12990101",
+    "name": "Ayat Silang - 01",
+    "account_type": "ASSET",
+    "category": "ASSET",
+    "level": 4,
+    "path": "1000/1200/1299/129901/12990101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "20000101",
+    "name": "Liabilitas - Default - 01",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 4,
+    "path": "2000/200001/20000101",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "21000101",
+    "name": "Liabilitas Lancar - Default - 01",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 4,
+    "path": "2000/2100/210001/21000101",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "21010101",
+    "name": "Hutang Pihak Ketiga - 01",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 4,
+    "path": "2000/2100/2101/210101/21010101",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "21010201",
+    "name": "Hutang Karyawan - 01",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 4,
+    "path": "2000/2100/2101/210102/21010201",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "21010301",
+    "name": "Hutang BPJS - 01",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 4,
+    "path": "2000/2100/2101/210103/21010301",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "21019801",
+    "name": "Hutang Antar Program - 01",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 4,
+    "path": "2000/2100/2101/210198/21019801",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "21019901",
+    "name": "Hutang Lain-lain - 01",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 4,
+    "path": "2000/2100/2101/210199/21019901",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "21020101",
+    "name": "Hutang PPh Pasal 21 - 01",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 4,
+    "path": "2000/2100/2102/210201/21020101",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "21020201",
+    "name": "Hutang PPh Unifikasi Pasal 23 - 01",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 4,
+    "path": "2000/2100/2102/210202/21020201",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "21020301",
+    "name": "Hutang PPh Unifikasi Pasal 4(2) - 01",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 4,
+    "path": "2000/2100/2102/210203/21020301",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "21020401",
+    "name": "PPN Keluaran - 01",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 4,
+    "path": "2000/2100/2102/210204/21020401",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "21029901",
+    "name": "Hutang Pajak Lainnya - 01",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 4,
+    "path": "2000/2100/2102/210299/21029901",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "21030101",
+    "name": "Biaya Program Terutang - 01",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 4,
+    "path": "2000/2100/2103/210301/21030101",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "21030201",
+    "name": "Biaya Pendanaan Terutang - 01",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 4,
+    "path": "2000/2100/2103/210302/21030201",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "21030301",
+    "name": "Biaya Manajemen Umum Terutang - 01",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 4,
+    "path": "2000/2100/2103/210303/21030301",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "21039901",
+    "name": "Biaya Terutang Lain-lain - 01",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 4,
+    "path": "2000/2100/2103/210399/21039901",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "21040101",
+    "name": "Dana Titipan - 01",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 4,
+    "path": "2000/2100/2104/210401/21040101",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "21040201",
+    "name": "Jaminan Kerjasama - 01",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 4,
+    "path": "2000/2100/2104/210402/21040201",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "21049901",
+    "name": "Dana Titipan Lain-lain - 01",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 4,
+    "path": "2000/2100/2104/210499/21049901",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "21050101",
+    "name": "Sumbangan Ditangguhkan - 01",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 4,
+    "path": "2000/2100/2105/210501/21050101",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "21050201",
+    "name": "Penghasilan Ditangguhkan - 01",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 4,
+    "path": "2000/2100/2105/210502/21050201",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "21059901",
+    "name": "Penerimaan Ditangguhkan Lain-lain - 01",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 4,
+    "path": "2000/2100/2105/210599/21059901",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "21990101",
+    "name": "Ayat Silang-Pindah Buku - 01",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 4,
+    "path": "2000/2100/2199/219901/21990101",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "22000101",
+    "name": "Liabilitas Jangka Panjang - Default - 01",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 4,
+    "path": "2000/2200/220001/22000101",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "22010101",
+    "name": "Hutang Bank - 01",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 4,
+    "path": "2000/2200/2201/220101/22010101",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "22010201",
+    "name": "Hutang Pengurus - 01",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 4,
+    "path": "2000/2200/2201/220102/22010201",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "22019901",
+    "name": "Hutang Pihak Ketiga Jangka Panjang Lainnya - 01",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 4,
+    "path": "2000/2200/2201/220199/22019901",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "22990101",
+    "name": "Kewajiban Imbalan Pasca Kerja - 01",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 4,
+    "path": "2000/2200/2299/229901/22990101",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "22999901",
+    "name": "Liabilitas Jangka Panjang Lainnya - 01",
+    "account_type": "LIABILITY",
+    "category": "LIABILITY",
+    "level": 4,
+    "path": "2000/2200/2299/229999/22999901",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "30000101",
+    "name": "Aset Neto - Default - 01",
+    "account_type": "EQUITY",
+    "category": "EQUITY",
+    "level": 4,
+    "path": "3000/300001/30000101",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "31000101",
+    "name": "Aset Neto - Default - 01",
+    "account_type": "EQUITY",
+    "category": "EQUITY",
+    "level": 4,
+    "path": "3000/3100/310001/31000101",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "31010101",
+    "name": "Aset Neto Tanpa Pembatasan - Default - 01",
+    "account_type": "EQUITY",
+    "category": "EQUITY",
+    "level": 4,
+    "path": "3000/3100/3101/310101/31010101",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "31020101",
+    "name": "Aset Neto Dengan Pembatasan - Default - 01",
+    "account_type": "EQUITY",
+    "category": "EQUITY",
+    "level": 4,
+    "path": "3000/3100/3102/310201/31020101",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "39000101",
+    "name": "Akumulasi Penghasilan Komprehensif Lain (OCI) - Default - 01",
+    "account_type": "EQUITY",
+    "category": "EQUITY",
+    "level": 4,
+    "path": "3000/3900/390001/39000101",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "40000101",
+    "name": "Penerimaan - Default - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/400001/40000101",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "41000101",
+    "name": "Pendapatan (Sumbangan) - Default - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4100/410001/41000101",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "41010101",
+    "name": "Hibah NGO Asing - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4100/4101/410101/41010101",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "41010201",
+    "name": "Hibah NGO Lokal - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4100/4101/410102/41010201",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "41010301",
+    "name": "Hibah Bantuan Pemerintah Asing - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4100/4101/410103/41010301",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "41010401",
+    "name": "Hibah Bantuan Pemerintah Pusat - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4100/4101/410104/41010401",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "41010501",
+    "name": "Hibah Bantuan Pemerintah Daerah - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4100/4101/410105/41010501",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "41010601",
+    "name": "Hibah Korporasi Asing - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4100/4101/410106/41010601",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "41010701",
+    "name": "Hibah Korporasi Lokal - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4100/4101/410107/41010701",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "41010801",
+    "name": "Hibah Individu Asing - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4100/4101/410108/41010801",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "41010901",
+    "name": "Hibah Individu Lokal - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4100/4101/410109/41010901",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "41019901",
+    "name": "Hibah Lain-lain - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4100/4101/410199/41019901",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "41020101",
+    "name": "Hibah Barang & Jasa NGO Asing - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4100/4102/410201/41020101",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "41020201",
+    "name": "Hibah Barang & Jasa NGO Lokal - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4100/4102/410202/41020201",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "41020301",
+    "name": "Hibah Barang & Jasa Bantuan Pemerintah Asing - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4100/4102/410203/41020301",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "41020401",
+    "name": "Hibah Barang & Jasa Bantuan Pemerintah Pusat - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4100/4102/410204/41020401",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "41020501",
+    "name": "Hibah Barang & Jasa Bantuan Pemerintah Daerah - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4100/4102/410205/41020501",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "41020601",
+    "name": "Hibah Barang & Jasa Korporasi Asing - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4100/4102/410206/41020601",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "41020701",
+    "name": "Hibah Barang & Jasa Korporasi Lokal - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4100/4102/410207/41020701",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "41020801",
+    "name": "Donasi Barang & Jasa Individu Asing - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4100/4102/410208/41020801",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "41020901",
+    "name": "Donasi Barang & Jasa Individu Lokal - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4100/4102/410209/41020901",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "41029901",
+    "name": "Hibah Barang & Jasa Lain-lain - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4100/4102/410299/41029901",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "41030101",
+    "name": "Donasi NGO Asing - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4100/4103/410301/41030101",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "41030201",
+    "name": "Donasi NGO Lokal - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4100/4103/410302/41030201",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "41030301",
+    "name": "Donasi Bantuan Pemerintah Asing - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4100/4103/410303/41030301",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "41030401",
+    "name": "Donasi Bantuan Pemerintah Pusat - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4100/4103/410304/41030401",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "41030501",
+    "name": "Donasi Bantuan Pemerintah Daerah - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4100/4103/410305/41030501",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "41030601",
+    "name": "Donasi Korporasi Asing - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4100/4103/410306/41030601",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "41030701",
+    "name": "Donasi Korporasi Lokal - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4100/4103/410307/41030701",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "41030801",
+    "name": "Donasi Individu Asing - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4100/4103/410308/41030801",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "41030901",
+    "name": "Donasi Individu Lokal - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4100/4103/410309/41030901",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "41039901",
+    "name": "Donasi Lain-lain - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4100/4103/410399/41039901",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "41040101",
+    "name": "Kontribusi Internal - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4100/4104/410401/41040101",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "41040201",
+    "name": "Kontribusi Eksternal - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4100/4104/410402/41040201",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "41049901",
+    "name": "Kontribusi Lain-lain - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4100/4104/410499/41049901",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "41050101",
+    "name": "Zakat/Infaq/Shodaqoh (ZISWAF) - Default - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4100/4105/410501/41050101",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "41060101",
+    "name": "Iuran Anggota - Default - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4100/4106/410601/41060101",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "41070101",
+    "name": "Penerimaan Dukungan Institusi - Default - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4100/4107/410701/41070101",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "42000101",
+    "name": "Penghasilan (Non Sumbangan) - Default - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4200/420001/42000101",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "42010101",
+    "name": "Jasa Pelatihan - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4200/4201/420101/42010101",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "42010201",
+    "name": "Jasa Kesehatan - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4200/4201/420102/42010201",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "42019901",
+    "name": "Jasa Lainnya - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4200/4201/420199/42019901",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "42020101",
+    "name": "Hasil Penyewaan Ruangan - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4200/4202/420201/42020101",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "42020201",
+    "name": "Hasil Penyewaan Kendaraan - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4200/4202/420202/42020201",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "42029901",
+    "name": "Hasil Penyewaan Lainnya - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4200/4202/420299/42029901",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "42030101",
+    "name": "Penjualan Produk Sisa Program - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4200/4203/420301/42030101",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "42030201",
+    "name": "Penjualan Aksesoris - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4200/4203/420302/42030201",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "42039901",
+    "name": "Penjualan Barang Lainnya - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4200/4203/420399/42039901",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "42040101",
+    "name": "Hasil Bunga Investasi - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4200/4204/420401/42040101",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "42040201",
+    "name": "Hasil Dividen - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4200/4204/420402/42040201",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "42049901",
+    "name": "Hasil Investasi Lainnya - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4200/4204/420499/42049901",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "43000101",
+    "name": "Penghasilan Komprehensif Lain - Default - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4300/430001/43000101",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "43010101",
+    "name": "Aset Neto Dibebaskan dari Pembatasan - Default - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4300/4301/430101/43010101",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "43020101",
+    "name": "Aset Neto Berakhir Batasannya - Default - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4300/4302/430201/43020101",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "43030101",
+    "name": "Pendapatan Bunga Bank - Default - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4300/4303/430301/43030101",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "43040101",
+    "name": "Laba Penghapusan Aset Tetap - Default - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4300/4304/430401/43040101",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "43050101",
+    "name": "Laba Selisih Kurs - Default - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4300/4305/430501/43050101",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "43990101",
+    "name": "Penerimaan Lain-lain - Default - 01",
+    "account_type": "REVENUE",
+    "category": "REVENUE",
+    "level": 4,
+    "path": "4000/4300/4399/439901/43990101",
+    "is_postable": true,
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "51010101",
+    "name": "Gaji - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5100/5101/510101/51010101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "51010201",
+    "name": "Tunjangan Hari Raya - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5100/5101/510102/51010201",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "51010301",
+    "name": "Tunjangan Tetap - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5100/5101/510103/51010301",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "51010401",
+    "name": "Tunjangan Tidak Tetap - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5100/5101/510104/51010401",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "51010501",
+    "name": "Lembur - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5100/5101/510105/51010501",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "51010601",
+    "name": "Biaya BPJS - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5100/5101/510106/51010601",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "51010701",
+    "name": "Biaya Pajak - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5100/5101/510107/51010701",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "51010801",
+    "name": "Uang Kompensasi - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5100/5101/510108/51010801",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "51010901",
+    "name": "Uang Pesangon - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5100/5101/510109/51010901",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "51019901",
+    "name": "Biaya Personil Lain-lain - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5100/5101/510199/51019901",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "51020101",
+    "name": "Biaya Honor Fasilitasi - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5100/5102/510201/51020101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "51020201",
+    "name": "Biaya Konsultan - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5100/5102/510202/51020201",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "51020301",
+    "name": "Biaya Jasa Audit - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5100/5102/510203/51020301",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "51020401",
+    "name": "Biaya Legalitas - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5100/5102/510204/51020401",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "51029901",
+    "name": "Biaya Profesional Lain-lain - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5100/5102/510299/51029901",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "51030101",
+    "name": "Tiket Pesawat/Kereta/Kapal dll - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5100/5103/510301/51030101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "51030201",
+    "name": "Biaya Visa Paspor - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5100/5103/510302/51030201",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "51030301",
+    "name": "Biaya Transportasi Lokal - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5100/5103/510303/51030301",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "51030401",
+    "name": "Biaya Sewa Kendaraan - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5100/5103/510304/51030401",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "51030501",
+    "name": "Uang Komunikasi - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5100/5103/510305/51030501",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "51030601",
+    "name": "Biaya Akomodasi - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5100/5103/510306/51030601",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "51030701",
+    "name": "Uang Saku/Perdiem - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5100/5103/510307/51030701",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "51039901",
+    "name": "Biaya Perjalanan Lain-lain - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5100/5103/510399/51039901",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "51040101",
+    "name": "Beban Rapat - Default - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5100/5104/510401/51040101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "51050101",
+    "name": "Beban Administrasi Kantor - Default - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5100/5105/510501/51050101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "51060101",
+    "name": "Beban Pengadaan - Default - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5100/5106/510601/51060101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "51070101",
+    "name": "Beban Publikasi - Default - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5100/5107/510701/51070101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "51080101",
+    "name": "Beban Bantuan - Default - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5100/5108/510801/51080101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "51090101",
+    "name": "Beban Pemakaian Persediaan - Default - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5100/5109/510901/51090101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "51100101",
+    "name": "Beban Penyusutan - Default - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5100/5110/511001/51100101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "51110101",
+    "name": "Beban Amortisasi - Default - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5100/5111/511101/51110101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "51120101",
+    "name": "Beban Overhead Program - Default - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5100/5112/511201/51120101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "52010101",
+    "name": "Gaji - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5200/5201/520101/52010101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "52010201",
+    "name": "Tunjangan Hari Raya - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5200/5201/520102/52010201",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "52010301",
+    "name": "Tunjangan Tetap - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5200/5201/520103/52010301",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "52010401",
+    "name": "Tunjangan Tidak Tetap - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5200/5201/520104/52010401",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "52010501",
+    "name": "Lembur - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5200/5201/520105/52010501",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "52010601",
+    "name": "Biaya BPJS - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5200/5201/520106/52010601",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "52010701",
+    "name": "Biaya Pajak - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5200/5201/520107/52010701",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "52010801",
+    "name": "Uang Kompensasi - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5200/5201/520108/52010801",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "52010901",
+    "name": "Uang Pesangon - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5200/5201/520109/52010901",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "52019901",
+    "name": "Biaya Personil Lain-lain - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5200/5201/520199/52019901",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "52020101",
+    "name": "Biaya Honor Fasilitasi - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5200/5202/520201/52020101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "52020201",
+    "name": "Biaya Konsultan - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5200/5202/520202/52020201",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "52020301",
+    "name": "Biaya Jasa Audit - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5200/5202/520203/52020301",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "52020401",
+    "name": "Biaya Legalitas - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5200/5202/520204/52020401",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "52029901",
+    "name": "Biaya Profesional Lain-lain - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5200/5202/520299/52029901",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "52030101",
+    "name": "Tiket Pesawat/Kereta/Kapal dll - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5200/5203/520301/52030101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "52030201",
+    "name": "Biaya Visa Paspor - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5200/5203/520302/52030201",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "52030301",
+    "name": "Biaya Transportasi Lokal - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5200/5203/520303/52030301",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "52030401",
+    "name": "Biaya Sewa Kendaraan - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5200/5203/520304/52030401",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "52030501",
+    "name": "Uang Komunikasi - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5200/5203/520305/52030501",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "52030601",
+    "name": "Biaya Akomodasi - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5200/5203/520306/52030601",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "52030701",
+    "name": "Uang Saku/Perdiem - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5200/5203/520307/52030701",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "52039901",
+    "name": "Biaya Perjalanan Lain-lain - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5200/5203/520399/52039901",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "52040101",
+    "name": "Beban Rapat - Default - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5200/5204/520401/52040101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "52050101",
+    "name": "Beban Administrasi Kantor - Default - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5200/5205/520501/52050101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "52060101",
+    "name": "Beban Pengadaan - Default - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5200/5206/520601/52060101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "52070101",
+    "name": "Beban Publikasi - Default - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5200/5207/520701/52070101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "52080101",
+    "name": "Beban Bantuan - Default - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5200/5208/520801/52080101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "52090101",
+    "name": "Beban Pemakaian Persediaan - Default - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5200/5209/520901/52090101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "52100101",
+    "name": "Beban Penyusutan - Default - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5200/5210/521001/52100101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "52110101",
+    "name": "Beban Amortisasi - Default - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5200/5211/521101/52110101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "52120101",
+    "name": "Beban Overhead Program - Default - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5200/5212/521201/52120101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "53010101",
+    "name": "Gaji - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5300/5301/530101/53010101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "53010201",
+    "name": "Tunjangan Hari Raya - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5300/5301/530102/53010201",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "53010301",
+    "name": "Tunjangan Tetap - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5300/5301/530103/53010301",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "53010401",
+    "name": "Tunjangan Tidak Tetap - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5300/5301/530104/53010401",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "53010501",
+    "name": "Lembur - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5300/5301/530105/53010501",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "53010601",
+    "name": "Biaya BPJS - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5300/5301/530106/53010601",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "53010701",
+    "name": "Biaya Pajak - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5300/5301/530107/53010701",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "53010801",
+    "name": "Uang Kompensasi - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5300/5301/530108/53010801",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "53010901",
+    "name": "Uang Pesangon - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5300/5301/530109/53010901",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "53019901",
+    "name": "Biaya Personil Lain-lain - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5300/5301/530199/53019901",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "53020101",
+    "name": "Biaya Honor Fasilitasi - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5300/5302/530201/53020101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "53020201",
+    "name": "Biaya Konsultan - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5300/5302/530202/53020201",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "53020301",
+    "name": "Biaya Jasa Audit - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5300/5302/530203/53020301",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "53020401",
+    "name": "Biaya Legalitas - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5300/5302/530204/53020401",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "53029901",
+    "name": "Biaya Profesional Lain-lain - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5300/5302/530299/53029901",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "53030101",
+    "name": "Tiket Pesawat/Kereta/Kapal dll - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5300/5303/530301/53030101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "53030201",
+    "name": "Biaya Visa Paspor - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5300/5303/530302/53030201",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "53030301",
+    "name": "Biaya Transportasi Lokal - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5300/5303/530303/53030301",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "53030401",
+    "name": "Biaya Sewa Kendaraan - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5300/5303/530304/53030401",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "53030501",
+    "name": "Uang Komunikasi - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5300/5303/530305/53030501",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "53030601",
+    "name": "Biaya Akomodasi - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5300/5303/530306/53030601",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "53030701",
+    "name": "Uang Saku/Perdiem - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5300/5303/530307/53030701",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "53039901",
+    "name": "Biaya Perjalanan Lain-lain - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5300/5303/530399/53039901",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "53040101",
+    "name": "Beban Rapat - Default - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5300/5304/530401/53040101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "53050101",
+    "name": "Beban Administrasi Kantor - Default - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5300/5305/530501/53050101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "53060101",
+    "name": "Beban Pengadaan - Default - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5300/5306/530601/53060101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "53070101",
+    "name": "Beban Publikasi - Default - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5300/5307/530701/53070101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "53080101",
+    "name": "Beban Bantuan - Default - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5300/5308/530801/53080101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "53090101",
+    "name": "Beban Pemakaian Persediaan - Default - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5300/5309/530901/53090101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "53100101",
+    "name": "Beban Penyusutan - Default - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5300/5310/531001/53100101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "53110101",
+    "name": "Beban Amortisasi - Default - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5300/5311/531101/53110101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "53120101",
+    "name": "Beban Overhead Program - Default - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5300/5312/531201/53120101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "54010101",
+    "name": "Beban Admin Bank - Default - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5400/5401/540101/54010101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "54020101",
+    "name": "Rugi Selisih Kurs - Default - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5400/5402/540201/54020101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "54030101",
+    "name": "Rugi Penghapusan Aset Tetap - Default - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5400/5403/540301/54030101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "54990101",
+    "name": "Beban Lainnya - Default - 01",
+    "account_type": "EXPENSE",
+    "category": "EXPENSE",
+    "level": 4,
+    "path": "5000/5400/5499/549901/54990101",
+    "is_postable": true,
+    "normal_balance": "DEBIT"
+  }
+]

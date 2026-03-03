@@ -2,6 +2,7 @@
 
 from datetime import datetime
 
+from pydantic import BaseModel, Field
 from sqlalchemy import Boolean, DateTime, ForeignKey, Integer, String, Text, func
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
@@ -89,3 +90,34 @@ class COAAccountSettings(Base):
     )
 
     account: Mapped[COAAccount] = relationship(back_populates="settings")
+
+
+class COAAccountResponse(BaseModel):
+    """Representasi account COA untuk response API."""
+
+    id: int
+    code: str
+    name: str
+    account_type: str
+    category: str
+    parent_id: int | None = None
+    level: int
+    path: str | None = None
+    is_postable: bool
+    normal_balance: str
+    is_active: bool
+    notes: str | None = None
+    created_at: datetime
+    updated_at: datetime
+
+    class Config:
+        orm_mode = True
+
+
+class COAAccountTreeNode(COAAccountResponse):
+    """Node tree COA untuk file-tree frontend."""
+
+    children: list["COAAccountTreeNode"] = Field(default_factory=list)
+
+
+COAAccountTreeNode.update_forward_refs()

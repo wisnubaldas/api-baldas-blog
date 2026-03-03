@@ -5,10 +5,17 @@ This module handles the creation of sample COA accounts, dimensions,
 and account settings using ORM models.
 """
 
+import json
+from pathlib import Path
+
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
 from app.models import COAAccount, COAAccountSettings, COADimension
+
+_DEFAULT_MASTER_COA_PATH = (
+    Path(__file__).resolve().parent / "data" / "coa_isak335_full_master_level1-5.json"
+)
 
 
 def _get_or_create_account(
@@ -77,232 +84,61 @@ def _get_or_create_dimension(
     return dimension
 
 
+def _load_master_coa_data() -> list[dict]:
+    """Load master COA JSON payload from local seed data folder."""
+    if not _DEFAULT_MASTER_COA_PATH.exists():
+        raise FileNotFoundError(
+            f"Master COA file not found: {_DEFAULT_MASTER_COA_PATH}"
+        )
+
+    with _DEFAULT_MASTER_COA_PATH.open("r", encoding="utf-8") as fp:
+        payload = json.load(fp)
+
+    if not isinstance(payload, list):
+        raise ValueError("Master COA JSON must be a list of account objects.")
+
+    return payload
+
+
+def _extract_parent_code(path: str, code: str) -> str | None:
+    """Extract parent account code from slash-delimited account path."""
+    segments = [segment.strip() for segment in path.split("/") if segment.strip()]
+    if len(segments) <= 1:
+        return None
+    if segments[-1] != code:
+        return segments[-2]
+    return segments[-2]
+
+
 def _seed_coa_accounts(db: Session) -> None:
-    """Seed chart of accounts data."""
-    # Header accounts
-    _get_or_create_account(
-        db,
-        code="1000",
-        name="Assets",
-        account_type="ASSET",
-        category="ASSET",
-        level=0,
-        path="1000",
-        is_postable=False,
-        normal_balance="DEBIT",
-    )
-    _get_or_create_account(
-        db,
-        code="2000",
-        name="Liabilities",
-        account_type="LIABILITY",
-        category="LIABILITY",
-        level=0,
-        path="2000",
-        is_postable=False,
-        normal_balance="CREDIT",
-    )
-    _get_or_create_account(
-        db,
-        code="3000",
-        name="Equity",
-        account_type="EQUITY",
-        category="EQUITY",
-        level=0,
-        path="3000",
-        is_postable=False,
-        normal_balance="CREDIT",
-    )
-    _get_or_create_account(
-        db,
-        code="4000",
-        name="Revenue",
-        account_type="REVENUE",
-        category="REVENUE",
-        level=0,
-        path="4000",
-        is_postable=False,
-        normal_balance="CREDIT",
-    )
-    _get_or_create_account(
-        db,
-        code="5000",
-        name="Expenses",
-        account_type="EXPENSE",
-        category="EXPENSE",
-        level=0,
-        path="5000",
-        is_postable=False,
-        normal_balance="DEBIT",
+    """Seed chart of accounts data from the master COA JSON file."""
+    master_accounts = _load_master_coa_data()
+    ordered_accounts = sorted(
+        master_accounts,
+        key=lambda account: (
+            int(account.get("level", 0)),
+            str(account.get("path", "")),
+            str(account.get("code", "")),
+        ),
     )
 
-    # Assets
-    _get_or_create_account(
-        db,
-        code="1100",
-        name="Cash and Cash Equivalent",
-        account_type="ASSET",
-        category="CASH",
-        parent_code="1000",
-        level=1,
-        path="1000/1100",
-        is_postable=False,
-        normal_balance="DEBIT",
-    )
-    _get_or_create_account(
-        db,
-        code="1110",
-        name="Cash on Hand",
-        account_type="ASSET",
-        category="CASH",
-        parent_code="1100",
-        level=2,
-        path="1000/1100/1110",
-        is_postable=True,
-        normal_balance="DEBIT",
-    )
-    _get_or_create_account(
-        db,
-        code="1120",
-        name="Bank BCA",
-        account_type="ASSET",
-        category="BANK",
-        parent_code="1100",
-        level=2,
-        path="1000/1100/1120",
-        is_postable=True,
-        normal_balance="DEBIT",
-    )
-    _get_or_create_account(
-        db,
-        code="1200",
-        name="Accounts Receivable",
-        account_type="ASSET",
-        category="AR",
-        parent_code="1000",
-        level=1,
-        path="1000/1200",
-        is_postable=True,
-        normal_balance="DEBIT",
-        notes="Control account for customer receivables",
-    )
-    _get_or_create_account(
-        db,
-        code="1300",
-        name="Inventory",
-        account_type="ASSET",
-        category="INVENTORY",
-        parent_code="1000",
-        level=1,
-        path="1000/1300",
-        is_postable=True,
-        normal_balance="DEBIT",
-    )
+    for account in ordered_accounts:
+        code = str(account["code"]).strip()
+        path = str(account["path"]).strip()
+        parent_code = _extract_parent_code(path, code)
 
-    # Liabilities
-    _get_or_create_account(
-        db,
-        code="2100",
-        name="Accounts Payable",
-        account_type="LIABILITY",
-        category="AP",
-        parent_code="2000",
-        level=1,
-        path="2000/2100",
-        is_postable=True,
-        normal_balance="CREDIT",
-        notes="Control account for vendor payables",
-    )
-    _get_or_create_account(
-        db,
-        code="2200",
-        name="Tax Payable",
-        account_type="LIABILITY",
-        category="TAX",
-        parent_code="2000",
-        level=1,
-        path="2000/2200",
-        is_postable=True,
-        normal_balance="CREDIT",
-    )
-
-    # Equity
-    _get_or_create_account(
-        db,
-        code="3100",
-        name="Owner Capital",
-        account_type="EQUITY",
-        category="CAPITAL",
-        parent_code="3000",
-        level=1,
-        path="3000/3100",
-        is_postable=True,
-        normal_balance="CREDIT",
-    )
-    _get_or_create_account(
-        db,
-        code="3200",
-        name="Retained Earnings",
-        account_type="EQUITY",
-        category="RETAINED_EARNINGS",
-        parent_code="3000",
-        level=1,
-        path="3000/3200",
-        is_postable=True,
-        normal_balance="CREDIT",
-    )
-
-    # Revenue
-    _get_or_create_account(
-        db,
-        code="4100",
-        name="Sales Revenue",
-        account_type="REVENUE",
-        category="OPERATING_REVENUE",
-        parent_code="4000",
-        level=1,
-        path="4000/4100",
-        is_postable=True,
-        normal_balance="CREDIT",
-    )
-
-    # Expenses
-    _get_or_create_account(
-        db,
-        code="5100",
-        name="Cost of Goods Sold",
-        account_type="EXPENSE",
-        category="COGS",
-        parent_code="5000",
-        level=1,
-        path="5000/5100",
-        is_postable=True,
-        normal_balance="DEBIT",
-    )
-    _get_or_create_account(
-        db,
-        code="5200",
-        name="Operating Expense",
-        account_type="EXPENSE",
-        category="OPEX",
-        parent_code="5000",
-        level=1,
-        path="5000/5200",
-        is_postable=True,
-        normal_balance="DEBIT",
-    )
-    _get_or_create_account(
-        db,
-        code="5300",
-        name="Tax Expense",
-        account_type="EXPENSE",
-        category="TAX",
-        parent_code="5000",
-        level=1,
-        path="5000/5300",
-        is_postable=True,
-        normal_balance="DEBIT",
-    )
+        _get_or_create_account(
+            db,
+            code=code,
+            name=str(account["name"]).strip(),
+            account_type=str(account["account_type"]).strip(),
+            category=str(account["category"]).strip(),
+            parent_code=parent_code,
+            level=int(account["level"]),
+            path=path,
+            is_postable=bool(account["is_postable"]),
+            normal_balance=str(account["normal_balance"]).strip(),
+        )
 
 
 def _seed_dimensions(db: Session) -> None:
